@@ -158,7 +158,7 @@ fx = potential_energy(X)
 gx = gradient(X)
 print("\nEnergy: ", fx, "\nGrad: ", norm(gx), "\nX1: ", X[:,1], "\nX2: ", X[:,2])
 
-print("\n\n##### RANDOM THOMPSON PROBLEM WITH N=3")
+print("\n\n##### RANDOM THOMPSON PROBLEM WITH N=3 #####")
 
 X = random_thomson_problem(3,3, 0.01, 1e-10, 10000)
 fx = potential_energy(X)
@@ -168,7 +168,7 @@ print("\n\nX1: ",X[:,1], "\nX2: ", X[:,2], "\nX3: ", X[:,3])
 p = plot_sphere(X, "3 Particles Distribution on 3D Sphere")
 display(p)
 
-print("\n\n##### RANDOM THOMPSON PROBLEM WITH N=4")
+print("\n\n##### RANDOM THOMPSON PROBLEM WITH N=4 #####")
 
 X = random_thomson_problem(3,4, 0.01, 1e-10, 10000)
 fx = potential_energy(X)
@@ -178,7 +178,7 @@ print("\n\nX1: ",X[:,1], "\nX2: ", X[:,2], "\nX3: ", X[:,3], "\nX4: ", X[:,4])
 p = plot_sphere(X, "4 Particles Distribution on 3D Sphere")
 display(p)
 
-print("\n\n##### RANDOM THOMPSON PROBLEM WITH N=5")
+print("\n\n##### RANDOM THOMPSON PROBLEM WITH N=5 #####")
 
 X = random_thomson_problem(3,5, 0.01, 1e-10, 10000)
 fx = potential_energy(X)
