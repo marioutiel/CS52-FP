@@ -5,9 +5,9 @@ This repository contains the implementation of the Thompson Problem optimization
 
 ## Problem Statement
 
-The Thompson Problem is an optimization problem where we aim to find the minimum enclosing circle of a set of points in a plane. The problem is stated as follows:
+The Thompson Problem is an optimization problem where we aim to find the minimum potential energy given the dimension of the (hyper-)sphere and the number of particles in the system. The problem is stated as follows:
 
-Given a set of n points in a plane, find the smallest circle that encloses all the points.
+Given a set of n particles, find the optimal distribution of the particles on a k-Dimensional hyper-sphere such that the energy is minimized.
 
 ## Implementation
 
